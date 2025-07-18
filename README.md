@@ -76,18 +76,20 @@ summer-heatwave-alert/
     cd scripts
     python load_and_visualize.py
 
-📥 Raw Dataset
-⚠️ Raw data files are not included in the repo. Please download them separately.
+## 📥 Raw and Processed Datasets
 
-You can download the required climate datasets (e.g., GeoTIFFs, CSVs) from a verified source:
+> ⚠️ **Raw and processed data files are not included in the repo due to size constraints.**
 
-🔗 Download Raw Dataset
-(Replace with the actual dataset link you're using)
+Please manually download the required climate datasets (e.g., GeoTIFFs, temperature CSVs) from a reliable source.
 
-After download, place the files inside:
+🔗 [Indian Summer – Over the Years (Kaggle)](https://www.kaggle.com/datasets/akashram/indian-summer-over-the-years) :contentReference[oaicite:1]{index=1}
 
-    ```bash
-    data/raw/
+After download, place the files in the following folders:
+
+data/
+├── raw/ # Raw downloaded datasets
+└── processed/ # Cleaned and transformed files (manually generated or shared separately)
+
 🔮 Upcoming Milestones
 ✅ Complete data processing and EDA
 
